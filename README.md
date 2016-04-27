@@ -1,6 +1,6 @@
 # wildfly-swarm-jaxrs-jsp-demo
 
-A WildFly Swarm Demo provide a JAX-RS API and serving JSP contents.
+A WildFly Swarm Demo provide a JAX-RS API and processing JSP.
 
 ## Usage
 
@@ -17,7 +17,7 @@ $ curl localhost:8080/api
 {"value":"Hello"}
 ```
 
-### Access static contents
+### Access JSP
 
 ``` sh
 $ curl localhost:8080          
