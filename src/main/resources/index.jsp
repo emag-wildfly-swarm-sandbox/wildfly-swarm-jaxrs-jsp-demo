@@ -7,6 +7,11 @@
   <title>Hello</title>
 </head>
 <body>
+<div id="logo">
+<img src="assets/wildfly-swarm.png" alt="WildFly Swarm">
+</div>
+<div>
 <%=LocalDateTime.now() %>
+</div>
 </body>
 </html>
